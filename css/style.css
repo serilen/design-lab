@@ -10,52 +10,60 @@ html, body{
 	font-size: 14px;
 	font-weight: 300;
 	height: 100vh;
-	background-color: #000;
-	color: #3c3c3c;
-	line-height: 1.8;
+	background-color: #ef4212;
+	padding: 20px;
 }
 
-.cls-1, .cls-2 {
-        fill: none;
-        stroke-width: 2px;
-      }
-
-      .cls-1 {
-        stroke: #fff;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
-        fill-rule: evenodd;
-      }
-
-      .cls-2 {
-        stroke: #f6f7fc;
-      }
-
-      .cls-3, .cls-4 {
-        fill: #fff;
-      }
-
-
-
-.main {
-	background-image: url(../image/hero-bg.jpg.png);
-	padding-top: 285px;
-	padding-bottom: 115px;
-	color: #fff;
+.triangle {
+	stroke: #fff;
 }
 
-.banner {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
+.round {
+	stroke: #f6f7fc;
 }
 
-.container {
-	width: 900px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: auto;
+.corner-circle {
+	fill: #fff;
 }
 
+.icon {
+	fill-rule: evenodd;
+	margin-right: 20px;
+}
+
+.icon-logo {
+	fill: none;
+	stroke-width: 2px;
+	width: 180px;
+	height: 180px;
+}
+
+.icon-logo--gray {
+	width: 75px;
+	height: 75px;
+}
+
+.icon-scroll {
+	fill: #fff;
+	width: 20px;
+	height: 30px;
+}
+
+.icon-devolopment {
+	fill: #3c3c3c;
+	fill-rule: evenodd;
+	width: 250px;
+	height: 250px;
+}
+
+.icon-design {
+	fill: #3c3c3c;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-product-manag {
+	fill: #3c3c3c;
+	width: 110px;
+	height: 110px;
+}
